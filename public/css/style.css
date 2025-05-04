@@ -234,7 +234,9 @@ img{
 
 .highlight {
     background: linear-gradient(to right, #694ED6, #C137A2);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
 }
 
 .border-bottom {
