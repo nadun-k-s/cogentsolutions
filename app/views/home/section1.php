@@ -1,4 +1,4 @@
-<section id="section1" class="home-elem-1">
+<!-- <section id="section1" class="home-elem-1">
     <div class="home-elem-53">
         <nav class="navbar navbar-expand-lg navbar-light" style="display: flex; justify-content: space-between; width: 100%;">
             <a class="navbar-brand" href="https://cogentsolutions.ae/" style="margin-left: 15px;">
@@ -44,6 +44,39 @@
             <span class="home-elem-7">
                 <img src="https://cogentsolutions.ae/events/upcoming-physical-events/reimagine-banking-finastra/asset/images/Finastra-UB-Egypt-Event-Overview%20SMALL.jpg" style="border-radius: 20px;">
             </span>
+        </div>
+    </div>
+</section> -->
+
+<section id="section1" class="home-elem-1">
+    <nav class="navbar navbar-expand-lg navbar-light home-elem-53">
+        <a class="navbar-brand" href="https://cogentsolutions.ae/">
+            <img src="https://cogentsolutions.ae/views/img/logos/cogent-logo-01.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#section2">Event Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Agenda</a></li>
+            </ul>
+            <a href="#register" class="btn custom-button">Register Now</a>
+        </div>
+    </nav>
+
+    <div class="home-elem-2">
+        <div class="home-elem-3" data-aos="fade-right">
+            <p class="lead home-elem-4">Organized by</p>
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/reimagine-banking-finastra/asset/img/finastra-boardroom.png" alt="Organizer" class="home-elem-6">
+            <h1>Reimagine Banking: Adapt. Evolve. Thrive.</h1>
+            <p class="home-elem-4"><strong>Date:</strong> 9th April 2025</p>
+            <p class="home-elem-4"><strong>Time:</strong> 9:30 AM - 2:00 PM GMT+2</p>
+            <p class="home-elem-4"><strong>Location:</strong> The Nile Ritz-Carlton, Cairo, Egypt</p>
+            <a href="#register" class="btn custom-button primary">Register Now</a>
+        </div>
+        <div class="home-elem-5" data-aos="fade-left">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/reimagine-banking-finastra/asset/images/Finastra-UB-Egypt-Event-Overview%20SMALL.jpg" alt="Event Image" class="home-elem-7">
         </div>
     </div>
 </section>
