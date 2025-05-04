@@ -23,7 +23,7 @@ class RegisterController extends Controller
         if (empty($company)) $errors['company'] = 'Company name is required.';
         if (!preg_match("/^[0-9]{10}$/", $phone)) $errors['phone'] = 'Valid phone number is required.';
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) $errors['email'] = 'Valid email is required.';
-        if (empty($company_website_URL)) $errors['company_website_URL'] = 'Company website URL is required.';
+        // if (empty($company_website_URL)) $errors['company_website_URL'] = 'Company website URL is required.';
         if (!$privacy_policy) $errors['privacy_policy'] = 'You must agree to the privacy policy.';
 
         if (empty($errors)) {
