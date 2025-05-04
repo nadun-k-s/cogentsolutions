@@ -1,0 +1,8 @@
+[
+    { "title": "Welcome", "content": "This is the welcome section." },
+    { "title": "About Us", "content": "Learn more about our team and goals." },
+    { "title": "Services", "content": "We offer web development, design, and consulting." },
+    { "title": "Portfolio", "content": "Check out our completed projects." },
+    { "title": "Testimonials", "content": "Hear from our happy clients." },
+    { "title": "Contact", "content": "Get in touch with us via the form below." }
+]

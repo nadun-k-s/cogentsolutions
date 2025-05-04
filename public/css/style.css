@@ -1,0 +1,120 @@
+.custom-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #878787;
+    font-family: Sora, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 26px;
+    z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    min-width: 130px;
+    min-height: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-elem-1 {
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #171717;
+    background-image: url(https://res.cloudinary.com/dbyioi2qq/q_auto/v1711694351/static/lightpng_1711694345_16780.png);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    height: auto;
+    width: 100%;
+    display: flex
+;
+    margin-right: NaNpx;
+    position: relative;
+}
+
+.home-elem-2 {
+    padding: 100px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    display: flex
+;
+    max-width: 1200px;
+    position: relative;
+}
+
+.home-elem-3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffffff;
+    letter-spacing: -2px;
+    line-height: 90px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+}
+
+.home-elem-4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #878787;
+    line-height: 15px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: 600px;
+}
+
+.home-elem-53 {
+    padding: 0px 16px 0px 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    max-width: 1200px;
+    position: relative;
+    background-color: #171717;
+
+}
+
+.custom-button:hover {
+    background-image: (linear-gradient 270deg,rgb(0, 0, 0) 0%,rgb(0, 0, 0) 97.7%);
+    background-position: 50% 50%; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+    background-clip: border-box; 
+    background-origin: padding-box; 
+    color: #FC4B37;
+}
