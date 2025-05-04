@@ -24,10 +24,28 @@ class RegisterController extends Controller
             if (empty($company_website_URL)) $errors['company_website_URL'] = 'Company website URL is required.';
             if (!$privacy_policy) $errors['privacy_policy'] = 'You must agree to the privacy policy.';
 
+            // if (empty($errors)) {
+            //     $response = ['success' => true];
+            // } else {
+            //     $response = ['success' => false, 'errors' => $errors];
+            // }
             if (empty($errors)) {
-                $response = ['success' => true];
-            } else {
-                $response = ['success' => false, 'errors' => $errors];
+                try {
+                    $model = new Registration();
+                    $model->save([
+                        'first_name' => $first_name,
+                        'last_name' => $last_name,
+                        'job_title' => $job_title,
+                        'company' => $company,
+                        'phone' => $phone,
+                        'email' => $email,
+                        'company_website_URL' => $company_website_URL,
+                    ]);
+            
+                    $response = ['success' => true];
+                } catch (Exception $e) {
+                    $response = ['success' => false, 'message' => 'Error saving to database: ' . $e->getMessage()];
+                }
             }
 
             echo json_encode($response);
