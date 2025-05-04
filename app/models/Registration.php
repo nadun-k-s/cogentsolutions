@@ -8,7 +8,7 @@ class Registration {
 
     public function save($data)
     {
-        $sql = "INSERT INTO registrationDetails 
+        $sql = "INSERT INTO registrationdetails 
                 (first_name, last_name, job_title, company, phone, email, company_website_URL)
                 VALUES (:first_name, :last_name, :job_title, :company, :phone, :email, :company_website_URL)";
 
