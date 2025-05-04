@@ -3,8 +3,8 @@
         <div style="background: linear-gradient(-90deg, #343434 -7.52%, #000 108.41%);" class="py-5">
             <div id="speakers" class="container">
                 <div class="container d-md-flex align-items-center justify-content-center text-center text-md-start pt-md-1 pt-lg-3">
-                    <h3 class="display-4 justify-content-center text-light aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our
-                        Speakers</h3>
+                    <h3 class="display-4 text-center text-light aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our Speakers</h3>
+
                 </div>
                 <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-2 mt-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col px-4" ref="#" data-bs-toggle="modal" data-bs-target="#">
