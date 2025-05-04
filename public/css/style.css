@@ -384,3 +384,15 @@ footer .nav-link:not(.active):not(.disabled):not(:hover), section .nav-link:not(
     align-items: center;
 }
 
+.error-message {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+    text-align: left;
+}
+
+input:invalid {
+    border-color: #e74c3c;
+}
