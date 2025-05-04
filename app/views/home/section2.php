@@ -1,5 +1,5 @@
 <section id="section2" class="home-elem-9" style="padding-bottom: 80px;">
-    <div class="aos-init aos-animate" style="color: white; max-width:95%" data-aos="fade-up" data-aos-duration="1000" >
+    <div class="aos-init aos-animate" style="color: white; max-width:95%; padding-bottom:50px" data-aos="fade-up" data-aos-duration="1000" >
         <div class="row">
             <div class="col-12 col-md-3 mb-4" style="text-align: center;">
                 <h3 class="display-4 aos-init aos-animate" style="font-size: 3.5rem;" data-aos="fade-right" data-aos-duration="1000" delay="200">
