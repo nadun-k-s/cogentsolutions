@@ -1,5 +1,4 @@
 <section id="section3">
-        <!-- Speakers -->
         <div style="background: linear-gradient(-90deg, #343434 -7.52%, #000 108.41%);" class="py-5">
             <div id="speakers" class="container">
                 <div class="container d-md-flex align-items-center justify-content-center text-center text-md-start pt-md-1 pt-lg-3">
